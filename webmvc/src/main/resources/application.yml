@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /webmvc
+logging:
+  level:
+    com.will.webmvc: debug
+spring:
+  application:
+    name: webmvc-server
